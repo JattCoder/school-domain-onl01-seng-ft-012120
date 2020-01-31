@@ -22,6 +22,9 @@ class School
     end
     stulist
   end
+  def sort
+
+  end
 end
 
 school = School.new("Test School")
