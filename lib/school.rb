@@ -4,7 +4,7 @@ class School
     @name = schoolname
     @@students
   end
-  def roaster
+  def roster
     @@students.length
   end
 end
