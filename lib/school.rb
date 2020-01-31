@@ -1,7 +1,8 @@
 class School
   def initialize(school_name)
     @school_name = school_name
-    @roster = Hash.new
+    @roster = {}
+    @roster[9]
   end
   def self.add_student(student_name, grade)
   if @roster[grade]
