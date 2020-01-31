@@ -4,7 +4,7 @@ class School
     @roster = Hash.new
   end
   def self.roster
-    @roster.length
+    self.roster.length
   end
   def self.add_student(student_name, grade)
   if @roster[grade]
