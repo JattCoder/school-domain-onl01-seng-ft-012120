@@ -16,7 +16,7 @@ class School
     @roster
   end
   def grade
-    
+
   end
 end
 
