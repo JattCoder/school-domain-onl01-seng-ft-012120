@@ -2,7 +2,7 @@ class School
   @@students = {}
   def initialize(schoolname)
     @name = schoolname
-    roaster
+    @@students = Hash.new
   end
   def roster
     @@students.length
