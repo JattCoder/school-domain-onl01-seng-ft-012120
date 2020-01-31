@@ -1,8 +1,7 @@
 class School
-  attr_reader :student
-  attr_writer :student
-  def initialize(roaster)
-
+  
+  def initialize(schoolname)
+    @name
   end
   def roaster
     @student.length
