@@ -15,6 +15,9 @@ class School
   def roster
     @roster
   end
+  def grade
+    
+  end
 end
 
 school = School.new("Test School")
