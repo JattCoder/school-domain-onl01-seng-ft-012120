@@ -10,4 +10,3 @@ end
 
 school = School.new("Test School")
 school.roaster
- 
