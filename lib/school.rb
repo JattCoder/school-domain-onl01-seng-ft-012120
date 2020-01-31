@@ -15,8 +15,12 @@ class School
   def roster
     @roster
   end
-  def grade
-
+  def grade(grade)
+    stulist = Array.new
+    @roster.each do |ggrade,students|
+      stulist = students if grade == ggrade
+    end
+    stulist
   end
 end
 
