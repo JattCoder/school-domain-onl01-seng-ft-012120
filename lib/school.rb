@@ -2,7 +2,7 @@ class School
   @@students = {}
   def initialize(schoolname)
     @name = schoolname
-    @@students.length
+    roaster
   end
   def roster
     @@students.length
