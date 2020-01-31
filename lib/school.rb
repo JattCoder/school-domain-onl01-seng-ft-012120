@@ -23,7 +23,7 @@ class School
     stulist
   end
   def sort
-
+    @roster.keys.sort
   end
 end
 
