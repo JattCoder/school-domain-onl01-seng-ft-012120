@@ -4,7 +4,6 @@ class School
     @name = schoolname
   end
   def roster
-    @@roster = {}
     @@roster.length
   end
 end
