@@ -1,10 +1,10 @@
 class School
-
+  @@students = {}
   def initialize(schoolname)
     @name = schoolname
   end
   def roaster
-    @student.length
+    @@students.length
   end
 end
 
