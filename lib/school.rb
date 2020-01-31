@@ -25,9 +25,10 @@ class School
   def sort
     @roster.keys.sort.each do |sortedkey|
       @roster[sortedkey] = @roster[sortedkey]
-    end
+        @roster[sortedkey].value.sort
+      end
     @roster
-  end
+    end
 end
 
 school = School.new("Test School")
