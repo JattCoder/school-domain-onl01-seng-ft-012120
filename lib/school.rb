@@ -5,7 +5,7 @@ class School
     @roster = Hash.new
     @roster.length
   end
-  def self.add_student(student_name, grade)
+  def add_student(student_name, grade)
   if @roster[grade]
     @roster[grade] << student_name
   else
@@ -16,3 +16,4 @@ end
 end
 
 school = School.new("Test School")
+school.add_student("AC Slater", 10)
