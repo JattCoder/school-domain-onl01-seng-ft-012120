@@ -1,7 +1,7 @@
 class School
 
   def initialize(schoolname)
-    @name
+    @name = schoolname
   end
   def roaster
     @student.length
@@ -10,3 +10,4 @@ end
 
 school = School.new("Test School")
 school.roaster
+ 
