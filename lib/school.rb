@@ -1,11 +1,10 @@
 class School
-  @@students = {}
+  @@roster = {}
   def initialize(schoolname)
     @name = schoolname
-    @@students = Hash.new
   end
   def roster
-    @@students.length
+    @@roster.length
   end
 end
 
