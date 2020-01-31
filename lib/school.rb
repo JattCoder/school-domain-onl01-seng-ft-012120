@@ -23,7 +23,10 @@ class School
     stulist
   end
   def sort
-    @roster.keys.sort
+    @roster.keys.sort.each do |sortedkey|
+      @roster[sortedkey] = @roster[sortedkey]
+    end
+    @roster
   end
 end
 
